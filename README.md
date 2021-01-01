@@ -18,12 +18,12 @@ This resource requires ESX to be installed properly, it means that you must have
 
 Items and recipes are defined in this structure.
 ['thermite'] = {
-		label = 'Thermite',
-		craftingtime = 20000,
-		requiredItems = {
-			{ item = "scrap_metal", item_label = "Scrap Metal", amount = 25 },
-			{ item = "scrap_brakes", item_label = "Scrap Brakes", amount = 15 },
-		}
+	label = 'Thermite',
+	craftingtime = 20000,
+	requiredItems = {
+		{ item = "scrap_metal", item_label = "Scrap Metal", amount = 25 },
+		{ item = "scrap_brakes", item_label = "Scrap Brakes", amount = 15 },
+	}
 },
 ```
 
@@ -33,10 +33,10 @@ The `thermite` is the item name given in your items table in your database, `lab
 
 ```lua
 ['jewels'] = {
-		label = 'Jewels',
-		min = 50,
-		max = 200,
-		price = 64
+	label = 'Jewels',
+	min = 50,
+	max = 200,
+	price = 64
 },
 ```
 
